@@ -520,8 +520,35 @@ section.voucher {
    
 }
 */
+.voucher {
+   width: 100%;
+   margin-top: 120px;
+   margin-bottom: 0;
+
+}
+
+.voucher .titulo-voucher {
+   width: 50%;
+   margin: auto;
+   text-align: center;
+}
 
 .voucher .titulo-voucher h2 {
+   font-size: 50px;
+   color:rgb(44, 41, 41);
+   font-weight: normal;
+   margin-bottom: 10px;
+}
+
+.voucher .titulo-voucher hr {
+   width: 50%;
+   margin: auto;
+   height: 2px;
+   background: rgb(44, 41, 41);
+   border: none;
+}
+
+/*.voucher .titulo-voucher h2 {
    color: var(--negro);
    text-align: center;
    font-size: 40px;
@@ -532,7 +559,7 @@ section.voucher {
    height: 1px;
    background: var(--negro);
    margin: 10px auto;
-}
+}*/
 
 .voucher .box-voucher .boton-voucher img {
    height: 500px;
@@ -583,7 +610,7 @@ section.voucher {
    justify-content: space-evenly;
 }
 
-.voucher .titulo-voucher{
+ .voucher .titulo-voucher{
    display: flex;
    flex-flow: row wrap;
    justify-content: space-evenly;
